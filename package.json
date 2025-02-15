@@ -1,0 +1,38 @@
+{
+  "name": "academiapro",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 0243 --turbo",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.3.1",
+    "date-fns": "^3.6.0",
+    "geist": "^1.3.1",
+    "lz-string": "^1.5.0",
+    "next": "14.2.5",
+    "next-pwa": "^5.6.0",
+    "next-view-transitions": "^0.3.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-icons": "^5.2.1",
+    "react-multi-date-picker": "^4.5.2",
+    "swr": "^2.2.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "eslint-plugin-jsx-a11y": "^6.9.0",
+    "postcss": "^8",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.5",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
